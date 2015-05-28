@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:background="#ffc8c8c8"
+    android:fitsSystemWindows="true">
+
+
+    <com.marvinlabs.widget.slideshow.SlideShowView
+        android:id="@+id/slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        />
+
+        <Button
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:id="@+id/sign_up_button"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:elevation="3dp"
+            android:soundEffectsEnabled="true"
+            android:background="@drawable/howard_red_button_state_list"
+            android:textStyle="bold"
+            android:layout_above="@+id/log_in_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/log_in_button"
+            android:background="@drawable/transparent_button_state_list"
+            android:textAlignment="center"
+            android:soundEffectsEnabled="true"
+            android:elevation="3dp"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/sub_title_text_view"
+        android:textColor="#FFFFFF"
+        android:maxWidth="320dp"
+        android:text="@string/slide1_string"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/title_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CEDAR CONNECT"
+        android:id="@+id/title_textview"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        android:hint="title_textview"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp" />
+
+</RelativeLayout>
+

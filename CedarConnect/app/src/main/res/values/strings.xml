@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cedar Connect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_sub_title_string">Connecting
+        students with top \nemployers and career opportunities</string>
+    <string name="slide1_string">Connecting
+        students with top employers and career opportunities!</string>
+    <string name="slide3_string">Receive real time notifications for upcoming events and add them \nto your personal calendar    </string>
+    <string name="slide2_string">Gain constant access to career resources, people, and organizations that
+        will assist you post graduation! </string>
+    <string name="signup_security_blurb">*This information allows us to verify that you are either a current howard student \n or
+        recent graduate* </string>
+    <string name="title_activity_home">Cedar Connect</string>
+    <string name="no_network">No network connection :(</string>
+    <string name="no_connection_to_parse">Cannot reach Veed:(</string>
+    <string name="sorry_nothing_new">Sorry there\'s nothing new :(</string>
+    <string name="title_activity_vimeo_player_activity">Vimeo Video</string>
+    <string name="title_activity_inside_channel_activity">Inside Channel</string>
+    <string name="cannot_load_home_activity">Veed is offline. Check network connection and try again :(</string>
+
+</resources>

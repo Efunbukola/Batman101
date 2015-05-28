@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-core-2.1.3-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/youtube/libs-sources/jackson-core-2.1.3-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

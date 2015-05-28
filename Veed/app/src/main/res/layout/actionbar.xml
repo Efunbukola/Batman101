@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer"
+        android:src="@drawable/drawer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="YOUR ACTIVITY TITLE"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:id="@+id/name"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/drawer"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

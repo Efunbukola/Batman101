@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_layout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refreshing..."
+        android:id="@+id/refresh_header"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:paddingTop="3dp"
+        android:paddingRight="3dp" />
+
+    <saboor.testexlist.CustomSwipeToRefresh
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe">
+        <saboor.testexlist.DraggableGridViewPager
+            android:id="@+id/draggable_grid_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="22dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:clickable="true">
+        </saboor.testexlist.DraggableGridViewPager>
+    </saboor.testexlist.CustomSwipeToRefresh>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="false"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        style="?android:attr/progressBarStyleLarge" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/trash"
+        android:background="#f0000000"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trash_icon"
+            android:layout_gravity="left|center_horizontal|right"
+            android:visibility="visible"
+            android:src="@drawable/trash"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

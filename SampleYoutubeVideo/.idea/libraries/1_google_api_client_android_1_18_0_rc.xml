@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="1_google-api-client-android-1.18.0-rc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/youtube/libs/google-api-client-android-1.18.0-rc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/app/libs/youtube/libs-sources/google-api-client-android-1.18.0-rc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

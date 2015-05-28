@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="cool_grey">#d07f7f7f</color>
+    <color name="black">#000000</color>
+        <color name="primary">#009688</color>
+        <color name="primaryDark">#00796b</color>
+        <color name="accent">#eeff41</color>
+        <color name="accentLight">#F4FF81</color>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_main_sections">
+        <item>My Veed</item>
+        <item>Favorites</item>
+        <item>Help</item>
+    </string-array>
+
+</resources>

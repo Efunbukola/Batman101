@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdo2-api-2.3-eb-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/youtube/libs-sources/jdo2-api-2.3-eb-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

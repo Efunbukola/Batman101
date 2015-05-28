@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0275ac80b8cc5ce35458f9360ae4c5be56fdf5e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\classes-b18020dc8f8a202d43954c0802909c5371eca4a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\libs\ocpsoft-pretty-time-1.0.7.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ffb3bd5c0254f3895a2b647ea882df4eea0a166">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\ocpsoft-pretty-time-1.0.7-bfbaf983fef3603c15fa2fcd7cd53ec3ec782ce6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-50a488e5cddfdae084c86b9c6fd625881a7872d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\Downloads\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-a13d0f1f1209da9acaae1f5c2ad514d6e432c33e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\libs\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-c6aec8b03c6d568ed04a7a16f3d18c2e3bc13517.jar" />
+    </item>
+    <item
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Saboor Salaam\AndroidStudioProjects\VideoSwipper\app\build\intermediates\pre-dexed\debug\classes-719bf4f6c55c391f9e1cfc9c0b29588485b77eec.jar" />
+    </item>
+
+</items>

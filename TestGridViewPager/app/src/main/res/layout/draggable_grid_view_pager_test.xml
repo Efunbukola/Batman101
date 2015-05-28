@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rootblock_default_bg" />
+
+    <beta.veed.com.testgridviewpager.DraggableGridViewPager
+        android:id="@+id/draggable_grid_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+    </beta.veed.com.testgridviewpager.DraggableGridViewPager>
+
+</FrameLayout>

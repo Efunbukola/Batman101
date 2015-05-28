@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.cedar.cedarappbeta.home_activity"
+    android:background="#FFB8B8B8">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/images"
+        android:scaleType="centerCrop"
+        android:visibility="visible" />
+
+    <com.app.cedar.cedarappbeta.PullToRefreshListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:dividerHeight="7dp"
+        android:drawSelectorOnTop="false"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:elevation="2dp"
+        android:padding="6dp"
+        android:scrollbars="none"
+        />
+
+</RelativeLayout>

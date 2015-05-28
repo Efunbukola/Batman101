@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideShowView">
+        <attr name="selector" format="reference" />
+
+        <!-- PLAYLIST -->
+        <attr name="playlist" format="enum">
+            <enum name="sequential" value="1" />
+            <enum name="random" value="2" />
+        </attr>
+        <attr name="slideDuration" format="integer" />
+        <attr name="loop" format="boolean" />
+        <attr name="enableAutoAdvance" format="boolean" />
+
+        <!-- TRANSITIONS -->
+        <attr name="transition" format="enum">
+            <enum name="none" value="1" />
+            <enum name="random" value="2" />
+            <enum name="fade" value="3" />
+            <enum name="zoom" value="4" />
+            <enum name="slideAndZoom" value="5" />
+            <enum name="flipHorizontal" value="6" />
+            <enum name="flipVertical" value="7" />
+        </attr>
+        <attr name="transitionDuration" format="integer" />
+    </declare-styleable>
+
+-<declare-styleable name="destiny">
+
+    <attr name="popupTop" format="dimension"/>
+
+    <attr name="popupLeft" format="dimension"/>
+
+    <attr name="errorIcon" format="reference"/>
+
+    <attr name="errorIconHeightSize" format="dimension"/>
+
+    <attr name="errorIconWidthSize" format="dimension"/>
+
+    <attr name="errorBackground" format="reference"/>
+
+    <attr name="errorFontSize" format="integer"/>
+
+    <attr name="errorFontColor" format="color"/>
+
+    <attr name="errorMessage" format="string"/>
+
+    <attr name="validationType" format="string"/>
+
+    <!-- email / url / number -->
+
+
+    <attr name="validationMaxLength" format="integer"/>
+
+    <attr name="validationMinLength" format="integer"/>
+
+</declare-styleable>
+
+</resources>

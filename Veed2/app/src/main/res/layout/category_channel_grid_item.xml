@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/channel_item" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/cover"
+        android:visibility="visible" />
+
+    <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/progbar"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignBottom="@+id/cover"
+        android:layout_alignRight="@+id/cover"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="visible" />
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/title_holder"
+        android:baselineAligned="false"
+        android:padding="3dip"
+        android:background="@drawable/gradient_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/title" android:textSize="20sp" android:textColor="#FFFFFF" android:singleLine="false" android:ellipsize="end"
+            android:text="This is sample text"
+            android:maxLines="4"
+            android:shadowColor="#000000"
+            android:shadowRadius="10"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layerType="software"
+            android:lines="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/follow_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/follow"
+            android:layout_marginRight="@dimen/text_padding"
+            android:layout_marginTop="@dimen/text_padding"
+            android:clickable="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

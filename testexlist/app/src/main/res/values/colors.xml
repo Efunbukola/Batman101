@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+
+    <color name="grid_state_pressed">#BB561e14</color>
+    <color name="grid_state_focused">#77561e14</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF000C</color>
+    <color name="main_section_selected">@android:color/transparent</color>
+    <color name="secondary_section_selected">#ccc</color>
+    <color name="secondary_divider_color">#ccc</color>
+
+</resources>

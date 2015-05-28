@@ -1,0 +1,33 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "beta.veed.com.veed"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/Parse.jar')
+    compile 'com.github.castorflex.verticalviewpager:library:19.0.1'
+    compile 'com.android.support:support-v4:19.1.+'
+    compile files('src/main/java/beta/veed/com/veed/Parse-1.5.1.jar')
+    compile files('src/main/java/beta/veed/com/veed/picasso-2.3.2.jar')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile files('src/main/java/beta/veed/com/veed/YouTubeAndroidPlayerApi.jar')
+    compile files('src/main/java/beta/veed/com/veed/prettytime-3.2.5.Final.jar')
+    compile "com.daimajia.swipelayout:library:1.0.3@aar"
+}

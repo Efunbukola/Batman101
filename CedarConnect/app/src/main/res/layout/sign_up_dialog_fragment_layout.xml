@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+    android:id="@+id/back_holder"
+    android:background="#95000000">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sign_up_form_view_flipper"
+        android:inAnimation="@anim/abc_slide_in_bottom"
+        android:outAnimation="@anim/abc_slide_out_top"/>
+
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text="Continue"
+        android:id="@+id/continue_button"
+        android:background="@drawable/howard_red_button_state_list"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:soundEffectsEnabled="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:id="@+id/action_bar"
+        android:visibility="visible"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_button"
+            android:src="@drawable/back_button_state_list"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:actionBarTabTextStyle"
+            android:text="Sign Up"
+            android:id="@+id/channel_title"
+            android:textSize="22sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#ffffffff"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/back_button"
+            android:layout_toEndOf="@+id/back_button"
+            android:layout_marginLeft="15dp"
+            android:textAllCaps="false"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+1 User opens App
+
+
+2a User chooses not to sign in
+
+If user declines to sign in > data is stored in local SQLite db
+
+When app is loaded check for a flag that tells us if the user is signed in
+
+
+
+
+
+
+
+2b User creates account and signs in
+
+Data is immediately store in the cloud
+User account to access that data is stored locally
+When user signs out the account is deleted
+
+
+Maybe we can check to see if Table of DB has been initialized with a user account

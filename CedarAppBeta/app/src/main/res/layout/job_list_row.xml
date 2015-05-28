@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:elevation="3dp"
+    android:background="#FFFFFF">
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Medical Technologist, Half-Time"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:maxWidth="300dp"
+        android:maxLength="28"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textColor="#343434"
+        android:textSize="17sp"
+        android:layout_marginTop="1dip"
+        android:text="Just gona stand there and ..."
+        android:maxWidth="300dp"
+        android:layout_marginLeft="5dp" />
+
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="by 11/3/14"
+        android:textSize="14dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:layout_below="@+id/desc"
+        android:layout_toRightOf="@+id/company"
+        android:layout_marginLeft="10dp" />
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Google"
+        android:textSize="14dip"
+        android:textColor="#ffffa417"
+        android:textStyle="bold"
+        android:layout_below="@+id/desc"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_alignStart="@+id/desc"
+        android:maxLength="20" />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="40k"
+        android:textSize="20sp"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:singleLine="true"
+        android:layout_alignBottom="@+id/title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp" />
+
+</RelativeLayout>

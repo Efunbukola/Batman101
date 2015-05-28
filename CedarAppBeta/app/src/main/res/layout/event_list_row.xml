@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:background="@drawable/border"
+    android:elevation="3dp"
+    >
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Technologist, Half-Time"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp" />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textColor="#343434"
+        android:textSize="17sp"
+        android:layout_marginTop="1dip"
+        android:text="Just gona stand there and ther are and there are..."
+        android:linksClickable="false"
+        android:maxWidth="260dp"
+        android:layout_marginLeft="5dp" />
+
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="11/3/14"
+        android:textSize="14dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:layout_below="@+id/desc"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_alignStart="@+id/desc"
+        android:layout_marginTop="2dp" />
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/rsvp"
+        android:id="@+id/rsvp_button"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

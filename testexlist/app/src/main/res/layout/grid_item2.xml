@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+    <RelativeLayout
+    android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/channel_item" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/cover_holder">
+
+        <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/progbar"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignBottom="@+id/cover"
+            android:layout_alignRight="@+id/cover"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp" />
+        <ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/cover"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/title_holder"
+        android:baselineAligned="false"
+        android:padding="3dip"
+        android:background="@drawable/gradient_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/size_holder">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/title" android:textSize="20sp" android:textColor="@color/white" android:singleLine="false" android:ellipsize="end"
+        android:text="This is sample text"
+        android:maxLines="4"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+        android:id="@+id/cover_title_holder"
+        android:visibility="invisible">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/cover_title"
+        android:textColor="#ffffffff"
+        android:shadowColor="#ff000000"
+        android:shadowRadius="10"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginRight="2dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/size_holder"
+        android:visibility="gone"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="false"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#ffffffff"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_marginRight="6dp"
+            android:shadowColor="#000000"
+            android:shadowRadius="10"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/delete_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/delete_button"
+        android:visibility="visible"
+        />
+
+</RelativeLayout>

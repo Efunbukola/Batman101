@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.cedar.cedarappbeta.create_account_activity">
+    <item android:id="@+id/next" android:title="Next"
+        android:orderInCategory="100" android:showAsAction="always" />
+</menu>

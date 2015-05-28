@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetty-6.1.26-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/youtube/libs-sources/jetty-6.1.26-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

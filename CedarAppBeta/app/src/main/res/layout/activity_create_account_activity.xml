@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.cedar.cedarappbeta.create_account_activity">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/background"
+        android:layout_below="@+id/second_title"
+        android:layout_toRightOf="@+id/second_title"
+        android:layout_toEndOf="@+id/second_title" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/verify_gpa_box"
+        android:layout_alignEnd="@+id/verify_gpa_box"
+        android:id="@+id/step_one_holder">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/register_first_step_title"
+            android:id="@+id/first_title"
+            android:layout_marginTop="54dp"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/register_first_step_subtitle"
+            android:id="@+id/first_sub_text"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/first_title"
+            android:layout_alignLeft="@+id/first_title"
+            android:layout_alignStart="@+id/first_title"
+            android:layout_marginTop="5dp"
+            android:lines="2"
+            android:maxWidth="330dp"
+            android:visibility="visible"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:id="@+id/sign_up_id_box"
+            android:hint="Just give us your student id..."
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:textColorHint="#ffc7c7c7"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:imeOptions="actionDone"
+            android:textColor="#FFFFFF"
+            android:lines="1"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_marginTop="90dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step_two_holder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/register_second_step_title"
+            android:id="@+id/second_title"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:visibility="visible"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/register_second_step_subtitle"
+            android:id="@+id/textView3"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:id="@+id/f_name_verify_box"
+            android:hint="Verify your first name..."
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:textColorHint="#ffc7c7c7"
+            android:textColor="#FFFFFF"
+            android:visibility="visible"
+            android:layout_below="@+id/second_sub_text"
+            android:layout_toRightOf="@+id/second_title"
+            android:layout_toEndOf="@+id/second_title"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="15dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/verify_gpa_box"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffc7c7c7"
+            android:visibility="visible"
+            android:layout_below="@+id/f_name_verify_box"
+            android:layout_alignLeft="@+id/sign_up_id_box"
+            android:layout_alignStart="@+id/sign_up_id_box"
+            android:layout_marginTop="10dp"
+            android:hint="Verify your gpa.."
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step_three_holder"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Create Password"
+            android:id="@+id/textView4"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password_box"
+            android:layout_below="@+id/verify_gpa_box"
+            android:layout_alignLeft="@+id/verify_gpa_box"
+            android:layout_alignStart="@+id/verify_gpa_box"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:hint="Now just choose a password..."
+            android:imeOptions="actionNext"
+            android:textColorHint="#ffc7c7c7"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/confirm_pass_box"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/password_box"
+            android:layout_alignLeft="@+id/password_box"
+            android:layout_alignStart="@+id/password_box"
+            android:layout_marginTop="20dp"
+            android:visibility="visible"
+            android:hint="Confirm password..."
+            android:imeOptions="actionDone"
+            android:textColorHint="#ffc7c7c7"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

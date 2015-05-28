@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cover_image_view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="#ff0033" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SOFTWARE DEVELOPER - ASP.NET / C#/ AWS"
+            android:id="@+id/title_text_view"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:layout_marginLeft="60dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:maxLines="2" />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:id="@+id/relativeLayout3"
+            android:visibility="visible"
+            android:layout_above="@+id/title_text_view"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit_button"
+                android:src="@drawable/exit"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_list_view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:divider="#FFFFFF"
+            android:dividerHeight="4dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#ff4f4f4f"
+            android:elevation="3dp"
+            android:visibility="invisible"
+            android:id="@+id/dwd">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Click to save this event"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/fav_unselected_state" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

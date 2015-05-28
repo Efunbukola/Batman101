@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "app.cedar.cedarconnect"
+        minSdkVersion 19
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('src/main/java/ocpsoft-pretty-time-1.0.7.jar')
+    compile files('src/main/java/Parse.jar')
+    compile files('src/main/java/picasso-2.3.2.jar')
+    compile 'com.github.alamkanak:android-week-view:1.2.1'
+    compile 'com.marvinlabs:android-slideshow-widget:0.4.+@aar'
+    compile 'com.android.support:support-v4:21.0.3'
+}

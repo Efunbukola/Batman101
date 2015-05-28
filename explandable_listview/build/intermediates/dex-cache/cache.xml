@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\build\intermediates\pre-dexed\debug\classes-134c7c08379edb7a6b3291bd1b71a71376ebad0a.jar"
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+    <item
+        dex="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-04dde37e48405b4442ed2e114457f34f6f27cab4.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\build\intermediates\pre-dexed\debug\DraggableGridView-79d003b16f13b8582e644d54067768e08a40b769.jar"
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\libs\DraggableGridView.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0a9b2f2c98e7ec76c0bd669eb8056c9e54bdfdb6"/>
+    <item
+        dex="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\build\intermediates\pre-dexed\debug\Parse-1b8729063935265c5b33a8ba2f7892eba0f1980a.jar"
+        jar="C:\Users\Saboor Salaam\AndroidStudioProjects\explandable_listview\app\libs\Parse.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+
+</pre-dex-items>

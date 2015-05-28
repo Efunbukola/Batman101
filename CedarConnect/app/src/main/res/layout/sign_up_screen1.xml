@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/edit_text_corners_white"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:id="@+id/verify_id_edit_text"
+            android:hint="First we need your student id..."
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:maxLength="8"
+            android:textColorHint="#ff121212"
+            android:background="#00FFFFFF"
+            android:imeOptions="actionDone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Signing up is simple"
+        android:id="@+id/title_text_view"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp"
+        android:visibility="visible"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Just follow these short steps"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:textColor="#fffafafa"
+        android:visibility="visible"
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

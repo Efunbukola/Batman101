@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/cover_holder"
+        android:background="@drawable/blur2"
+        android:layout_marginTop="0dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#85000000"
+        android:visibility="gone" />
+
+    <ProgressBar
+            android:orientation="horizontal"
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:adjustViewBounds="false"
+            android:layout_centerInParent="true"
+            android:indeterminate="false" />
+
+    <ImageView
+            android:orientation="horizontal"
+            android:id="@+id/cover"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="false"
+            android:adjustViewBounds="false"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:minHeight="350dp" />
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/play"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/play"
+            android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/cover"
+        android:layout_alignLeft="@+id/cover"
+        android:background="@drawable/gradient_bg90">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1 day ago from "
+            android:id="@+id/date"
+            android:textSize="18sp"
+            android:textColor="#ffffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:shadowColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="MLS"
+            android:id="@+id/provider"
+            android:textSize="18sp"
+            android:textColor="#28818f"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/date"
+            android:layout_toEndOf="@+id/date"
+            android:layout_alignBottom="@+id/date"
+            android:layout_marginLeft="5dp"
+            android:shadowColor="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Top 5 Goals of 2014 Chips | Year in Review"
+            android:id="@+id/title"
+            android:textSize="25sp"
+            android:maxLines="3"
+            android:typeface="normal"
+            android:textColor="#ffffffff"
+            android:shadowRadius="5"
+            android:layout_alignBottom="@+id/date"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentRight="false"
+            android:paddingRight="15dp"
+            android:layout_alignLeft="@+id/date"
+            android:shadowColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Technology"
+            android:id="@+id/channel"
+            android:layout_above="@+id/title"
+            android:layout_alignLeft="@+id/title"
+            android:layout_alignStart="@+id/title"
+            android:background="@drawable/rounded_corner"
+            android:padding="5dp"
+            android:shadowRadius="10"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

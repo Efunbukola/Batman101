@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.cedar.cedarconnect.HomeActivity">
+    <item android:id="@+id/newsfeed" android:title="News Feed"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/my_events" android:title="My Events"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/sign_out" android:title="Sign Out"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
